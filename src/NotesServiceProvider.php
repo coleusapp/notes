@@ -19,7 +19,7 @@ class NotesServiceProvider extends PackageServiceProvider
             ->name('notes')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_notes_table')
+            ->hasRoute('notes')
             ->hasCommand(NotesCommand::class);
     }
 }
