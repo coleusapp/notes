@@ -2,9 +2,9 @@
 
 namespace Coleus\Notes;
 
+use Coleus\Notes\Commands\NotesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Coleus\Notes\Commands\NotesCommand;
 
 class NotesServiceProvider extends PackageServiceProvider
 {

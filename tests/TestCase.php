@@ -2,9 +2,9 @@
 
 namespace Coleus\Notes\Tests;
 
+use Coleus\Notes\NotesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Coleus\Notes\NotesServiceProvider;
 
 class TestCase extends Orchestra
 {
