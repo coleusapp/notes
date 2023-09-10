@@ -6,4 +6,8 @@ use Illuminate\Routing\Controller;
 
 class NoteController extends Controller
 {
+    public function index()
+    {
+        //
+    }
 }
