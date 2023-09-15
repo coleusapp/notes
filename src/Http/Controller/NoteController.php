@@ -30,6 +30,7 @@ PHP_DUMMY;
     public function create()
     {
         $csrf = csrf_token();
+
         return <<<PHP_DUMMY
 <a href="/notes/notes">index</a>
 <form action="/notes/notes" method="POST">
@@ -51,6 +52,7 @@ PHP_DUMMY;
     public function edit(Note $note)
     {
         $csrf = csrf_token();
+
         return <<<PHP_DUMMY
 <a href="/notes/notes">index</a>
 <form action="/notes/notes/$note->id" method="POST">
