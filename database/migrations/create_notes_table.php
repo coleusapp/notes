@@ -8,11 +8,11 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('notes_table', function (Blueprint $table) {
+        Schema::create('notes', function (Blueprint $table) {
             $table->id();
-
-            // add fields
-
+            $table->text('title');
+            $table->text('text');
+            $table->softDeletes();
             $table->timestamps();
         });
     }
