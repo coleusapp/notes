@@ -76,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Amirmasoud Sheydaei](https://github.com/amirmasoud)
+- [Amirmasood Sheidayi](https://github.com/amirmasoud)
 - [All Contributors](../../contributors)
 
 ## License
