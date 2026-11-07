@@ -33,7 +33,7 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         @routes
-        @vite('resources/js/app.ts', Vite::isRunningHot() ? '' : 'vendor/notes')
+        @packageVite('notes')
         @inertiaHead
     </head>
     <body class="font-sans antialiased min-h-screen">
