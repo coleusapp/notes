@@ -6,5 +6,5 @@ use Coleus\Support\Http\Middleware\HandleInertiaRequests as BaseHandleInertiaReq
 
 class HandleInertiaRequests extends BaseHandleInertiaRequests
 {
-    protected $rootView = 'notes::app';
+    protected string $package = 'notes';
 }
